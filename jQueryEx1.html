@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>jQueryHW</title>
+</head>
+<body>
+    <body>
+        <header>
+            <ul>
+                <li class="first">Item 1</li>
+                <li class="selected">Item 2</li>
+                <li class="last">Item 3</li>
+            </ul>
+        </header>
+        <div class="col">
+            <section>
+                <h2>Section 1</h2>
+            </section>
+            <section class="current">
+                <h2 class="highlight">Section 2</h2>
+            </section>
+            <section>
+                <h1>Section 3</h1>
+            </section>
+        </div>
+    </body>
+
+    <script
+              src="https://code.jquery.com/jquery-3.5.1.js"
+              integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+              crossorigin="anonymous"></script>
+
+    <!--Ex1-->
+    <script>
+        //Select header
+        var headers = $('header');
+        //select all section's
+        var sec = $('section').find("*");
+        //select current section
+        var secCurrent = $('.current');
+        //select section after current
+        var secFollows =$('.current').next();
+        console.log(secFollows);
+        //h2 b4 current
+        var prevh2 = $('current').prev().find("h2")[0];
+        console.log(prevh2);
+        //div contains section w/h2 class 'highlight'
+        var divstuff = $("highlight").parent().parent();
+        console.log(divstuff);
+        var array = Array.from($("section").find("h2"));
+        console.log(array);
+    </script>
+</html>
+
