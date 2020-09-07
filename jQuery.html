@@ -1,16 +1,38 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Demo</title>
+    <title>jQueryHW</title>
 </head>
 <body>
+	<!--Setup-->
     <a href="http://jquery.com/">jQuery</a>
-    <script src="jquery.js"></script>
+    <script
+			  src="https://code.jquery.com/jquery-3.5.1.js"
+			  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+			  crossorigin="anonymous"></script>
+    <!--Event Handlers-->
+    <div id="firstDiv">
+    	<button id="myButton" name="button">Click ME</button>
+	</div>
+	<div id="someOtherElement">
+    	<h3>hello world</h3>
+	</div>
+    
     <script>
- 
-    // Your code goes here.
- 
+    $('#myButton').on('click', function(event){
+	//Invoked when #myButton gets a click event
+	this.innerHTML = "button clicked";
+	})
+    </script>
+
+	<!--Selection-->
+    <script>
+ 		var elements = $('#myDivWithAnId .css .query').filter(function(){
+ 				//this referes to current element
+				return this.innerHTML === 'myElement';
+			});
+
     </script>
 </body>
 </html>

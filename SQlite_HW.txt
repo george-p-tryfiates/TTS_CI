@@ -1,0 +1,40 @@
+SQlite HW
+
+1.
+SELECT * FROM User;
+
+2. 
+SELECT lastname FROM User;
+
+3. 
+SELECT * FROM artists
+WHERE (id % 2 = 0 AND id > 50) OR (id % != 0 AND id<10);
+
+4.
+INSERT INTO User (firstname, lastname, birthplace, createdat)
+VALUES ('Bob', 'Builder', 47, CURRENT_TIMESTAMP),
+('Turin', 'Hurinson', 28, CURRENT_TIMESTAMP),
+('Steve', 'Miller', 33, CURRENT_TIMESTAMP);
+
+5.
+UPDATE User
+set firstname = 'Sauron',
+	lastname = 'Morningstar',
+    updatedat = CURRENT_TIMESTAMP
+WHERE userid = 3
+
+6.
+BEGIN TRANSACTION;
+	DELETE FROM User;
+	SELECT * FROM User;
+ROLLBACK;
+
+7.
+INSERT INTO Favorite (userid, createdat)
+SELECT userid, createdat FROM User;
+
+8.
+BEGIN TRANSACTION;
+DELETE FROM Favorite
+WHERE favoriteid %2 != 0 OR (favoriteid == 0 AND favoriteid > 8);
+ROLLBACK;
