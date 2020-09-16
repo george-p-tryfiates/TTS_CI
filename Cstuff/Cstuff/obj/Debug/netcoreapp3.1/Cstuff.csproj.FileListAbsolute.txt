@@ -1,0 +1,13 @@
+C:\Users\seeuo\Documents\Tech Talent South\TTS_CI\Cstuff\Cstuff\obj\Debug\netcoreapp3.1\Cstuff.csprojAssemblyReference.cache
+C:\Users\seeuo\Documents\Tech Talent South\TTS_CI\Cstuff\Cstuff\obj\Debug\netcoreapp3.1\Cstuff.AssemblyInfoInputs.cache
+C:\Users\seeuo\Documents\Tech Talent South\TTS_CI\Cstuff\Cstuff\obj\Debug\netcoreapp3.1\Cstuff.AssemblyInfo.cs
+C:\Users\seeuo\Documents\Tech Talent South\TTS_CI\Cstuff\Cstuff\obj\Debug\netcoreapp3.1\Cstuff.csproj.CoreCompileInputs.cache
+C:\Users\seeuo\Documents\Tech Talent South\TTS_CI\Cstuff\Cstuff\bin\Debug\netcoreapp3.1\Cstuff.exe
+C:\Users\seeuo\Documents\Tech Talent South\TTS_CI\Cstuff\Cstuff\bin\Debug\netcoreapp3.1\Cstuff.deps.json
+C:\Users\seeuo\Documents\Tech Talent South\TTS_CI\Cstuff\Cstuff\bin\Debug\netcoreapp3.1\Cstuff.runtimeconfig.json
+C:\Users\seeuo\Documents\Tech Talent South\TTS_CI\Cstuff\Cstuff\bin\Debug\netcoreapp3.1\Cstuff.runtimeconfig.dev.json
+C:\Users\seeuo\Documents\Tech Talent South\TTS_CI\Cstuff\Cstuff\bin\Debug\netcoreapp3.1\Cstuff.dll
+C:\Users\seeuo\Documents\Tech Talent South\TTS_CI\Cstuff\Cstuff\bin\Debug\netcoreapp3.1\Cstuff.pdb
+C:\Users\seeuo\Documents\Tech Talent South\TTS_CI\Cstuff\Cstuff\obj\Debug\netcoreapp3.1\Cstuff.dll
+C:\Users\seeuo\Documents\Tech Talent South\TTS_CI\Cstuff\Cstuff\obj\Debug\netcoreapp3.1\Cstuff.pdb
+C:\Users\seeuo\Documents\Tech Talent South\TTS_CI\Cstuff\Cstuff\obj\Debug\netcoreapp3.1\Cstuff.genruntimeconfig.cache
