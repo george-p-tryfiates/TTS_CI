@@ -862,6 +862,7 @@ namespace Cstuff
             }
             */
 
+            /*
             Console.WriteLine("Ex. 30: Check Equality of Matrices");
             Console.WriteLine("Enter array size (i.e., Enter 2 for a 2x2 Matrix): ");
             int size = int.Parse(Console.ReadLine());
@@ -922,7 +923,10 @@ namespace Cstuff
                 Console.WriteLine("This is not an identity matrix.");
             }
 
-
+            */
+            Console.WriteLine(Console.Read());
+            Console.ReadKey();
+            Console.WriteLine(Console.ReadLine());
 
 
 
